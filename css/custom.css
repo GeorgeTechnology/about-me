@@ -84,7 +84,8 @@ a:hover {
 .section .container {
   position: relative; }
   .section .container:after {
-    position: absolute;
+    /*changed position from absolute to relative */
+    position: relative;
     content: url(../img/separator.png);
     left: 20px; }
   .section .container h1 {
